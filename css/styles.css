@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  background: 50% 50% no-repeat
+    url('data:image/svg+xml,<svg viewBox="-20 -5 60 40" width="140" xmlns="http://www.w3.org/2000/svg" opacity="0.2"><path d="M1 8l11-7 11 7v8l-11 7-11-7zm0 0l11 8 11-8m0 8L12 8 1 16M12 1v7m0 8v7" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"/><text x="-12" y="32" font-size="5" font-family="monospace" fill="currentColor">Built on CodePen</text></svg>');
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  text-align: center;
+  margin: 0px;
+  background-color: #eef6f5;
+  font-family: "Lato", sans-serif;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+  font-family: "Fredoka", sans-serif;
+}
+
+header {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1f8a8a;
+  color: #eef6f5;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.card {
+  border: 2px solid #ffc94d;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 1rem;
+}
+
+.tags {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.tag {
+  background-color: #ffc94d;
+  border-radius: 20px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+footer {
+  display: flex;
+  background-color: #14313a;
+  color: #eef6f5;
+  margin-top: 3rem;
+  justify-content: space-between;
+}
